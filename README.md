@@ -19,12 +19,12 @@
 <div style="display: flex; flex-wrap: wrap;">
   <!-- Include the image for A.jpg -->
   <div style="width: 45%;">
-    <img src="Pics/A.jpg" alt="Parameter A" style="width: 100%;">
+    <img src="Pics/A.jpg" alt="Parameter A" style="width: 300px">
     <p style="text-align: center;"><sub>[1]</sub>s</p>
   </div>
   <!-- Include the image for B.jpg -->
   <div style="width: 45%;">
-    <img src="Pics/B.jpg" alt="Parameter B" style="width: 100%;">
+    <img src="Pics/B.jpg" alt="Parameter B" style="width: 300px;">
     <p style="text-align: center;"> <sub>[1]</sub></p>
   </div>
 </div>
