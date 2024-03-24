@@ -1,17 +1,4 @@
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quadruple Tank Problem</title>
-<style>
-  .image-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .image-container img {
-    width: 45%; /* Adjust width as needed */
-  }
-</style>
-</head>
+
 <body>
 
 <h1>Quadruple Tank Problem</h1>
@@ -28,12 +15,20 @@
 
 <p>The state space representation of the system is provided in the paper [1]. The parameters A, B, and C are described in the images below:</p>
 
-<div class="image-container">
+<!-- Display images side by side -->
+<div style="display: flex; flex-wrap: wrap;">
   <!-- Include the image for A.jpg -->
-  <img src="Pics/A.jpg" alt="Parameter A"><sub>[1]</sub>
+  <div style="width: 45%;">
+    <img src="Pics/A.jpg" alt="Parameter A" style="width: 100%;">
+    <p style="text-align: center;"><sub>[1]</sub>s</p>
+  </div>
   <!-- Include the image for B.jpg -->
-  <img src="Pics/B.jpg" alt="Parameter B"><sub>[1]</sub>
+  <div style="width: 45%;">
+    <img src="Pics/B.jpg" alt="Parameter B" style="width: 100%;">
+    <p style="text-align: center;"> <sub>[1]</sub></p>
+  </div>
 </div>
+
 
 <!-- Include the image for C.jpg -->
 <img src="Pics/C.jpg" alt="Parameter C" style="width: 200px;"><sub>[1]</sub>
